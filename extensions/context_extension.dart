@@ -20,13 +20,12 @@ extension ContextExtension on BuildContext {
 }
 
 /// Extension on [BuildContext] for quick access to screen size, theme, and navigation.
-///
+
 /// Usage:
-/// ```dart
+
 /// context.screenHeight      // MediaQuery height
 /// context.screenWidth       // MediaQuery width
 /// context.isDark            // true if dark mode
 /// context.colors.primary    // ColorScheme primary
 /// context.pop()             // Navigator.pop
 /// context.push(MyPage())    // Navigator.push
-/// ```
