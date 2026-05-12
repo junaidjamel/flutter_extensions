@@ -86,6 +86,16 @@ Remove duplicate elements from any list without extra setup.
 
 ---
 
+### 🧹 Visibility of Widget
+
+No more isVisible ? widget : SizedBox.shrink().
+
+```dart
+Text('Premium Feature').visible(isPremiumUser);
+```
+
+---
+
 ## Usage
 
 No installation needed. Just copy the file you need into your project and import it.
