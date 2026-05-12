@@ -8,6 +8,7 @@ Copy what you need — no package setup required.
 ## Extensions
 
 ### 🔤 String
+
 Capitalize the first letter of any string safely, even if null.
 
 ```dart
@@ -19,6 +20,7 @@ null.capitalizeFirst()            // ''
 ---
 
 ### 📐 Size
+
 Quickly create `SizedBox`, `BorderRadius`, and `Duration` from any number.
 
 ```dart
@@ -32,6 +34,7 @@ Quickly create `SizedBox`, `BorderRadius`, and `Duration` from any number.
 ---
 
 ### 🎨 Widget
+
 Add padding to any widget without wrapping it manually.
 
 ```dart
@@ -43,6 +46,7 @@ Text('Hello').paddingOnly(left: 12, top: 8)
 ---
 
 ### 🧭 Context
+
 Access theme, screen size, and navigation directly from `BuildContext`.
 
 ```dart
@@ -57,6 +61,7 @@ context.push(MyPage())     // Navigator.push
 ---
 
 ### 📅 DateTime
+
 Handy date checks and human-readable formatting.
 
 ```dart
@@ -66,6 +71,17 @@ someDate.isWeekend         // true / false
 someDate.timeAgo           // '5m ago' / '2h ago' / '3d ago'
 someDate.formatted         // '08 May 2026'
 someDate.timeOnly          // '09:30 AM'
+```
+
+---
+
+### 🧹 List
+
+Remove duplicate elements from any list without extra setup.
+
+```dart
+[1, 2, 2, 3].unique()           // [1, 2, 3]
+['a', 'b', 'a'].unique()        // ['a', 'b']
 ```
 
 ---
